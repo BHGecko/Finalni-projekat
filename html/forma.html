@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportZona - Kontakt</title>
+    <link rel="stylesheet" href="forma.css">
+</head>
+<body>
+
+<header>
+    <h1>📬 SportZona</h1>
+</header>
+
+<nav>
+    <a href="fudbal.html">Fudbal</a>
+    <a href="kosarka.html">Košarka</a>
+    <a href="rukomet.html">Rukomet</a>
+    <a href="forma.html" class="active">Kontakt</a>
+</nav>
+
+<main>
+    <section>
+        <h2>Kontaktirajte nas</h2>
+
+        <div id="poruka-greska" class="poruka greska" style="display:none;"></div>
+        <div id="poruka-uspjeh" class="poruka uspjeh" style="display:none;"></div>
+
+        <div class="forma-grupa">
+            <label for="ime">Ime i prezime</label>
+            <input type="text" id="ime" placeholder="Vaše ime">
+        </div>
+
+        <div class="forma-grupa">
+            <label for="email">Email adresa</label>
+            <input type="text" id="email" placeholder="vas@email.com">
+        </div>
+
+        <div class="forma-grupa">
+            <label for="tekst">Poruka</label>
+            <textarea id="tekst" rows="5" placeholder="Vaša poruka..."></textarea>
+        </div>
+
+        <button id="btn-pošalji">Pošalji</button>
+    </section>
+</main>
+
+<footer>
+    <p>© 2024 SportZona</p>
+</footer>
+
+<script src="forma.js"></script>
+</body>
+</html>

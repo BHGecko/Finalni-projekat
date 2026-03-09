@@ -1,0 +1,141 @@
+/* forma.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 16px 20px;
+    text-align: center;
+}
+
+nav {
+    background: #222;
+    display: flex;
+    gap: 4px;
+    padding: 8px 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+nav a:hover, nav a.active {
+    background: #555;
+}
+
+main {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 0 16px;
+}
+
+section {
+    background: white;
+    padding: 24px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.forma-grupa {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-family: Arial, sans-serif;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #555;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 12px 28px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button:hover {
+    background: #555;
+}
+
+/* Poruke */
+.poruka {
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.greska {
+    background: #ffe0e0;
+    color: #c00;
+    border: 1px solid #f5c0c0;
+}
+
+.uspjeh {
+    background: #e0f5e0;
+    color: #080;
+    border: 1px solid #b0ddb0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #aaa;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        padding: 8px;
+    }
+
+    nav a {
+        padding: 10px;
+        text-align: center;
+    }
+}

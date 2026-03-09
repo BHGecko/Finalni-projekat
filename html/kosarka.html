@@ -1,12 +1,73 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <title>Kosarka</title>
-        <link rel="stylesheet" href="css/kosarka.css" rel="stylesheet" href="kosarka.js">
-    </head>
-    <body>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportZona - Košarka</title>
+    <link rel="stylesheet" href="kosarka.css">
+</head>
+<body>
 
-    </body>
+<header>
+    <h1>🏀 SportZona</h1>
+</header>
+
+<nav>
+    <a href="fudbal.html">Fudbal</a>
+    <a href="kosarka.html" class="active">Košarka</a>
+    <a href="rukomet.html">Rukomet</a>
+    <a href="forma.html">Kontakt</a>
+</nav>
+
+<main>
+
+    <section>
+        <h2>Košarka</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/2019_NBA_Finals_Game_4_%2847908317193%29.jpg/800px-2019_NBA_Finals_Game_4_%2847908317193%29.jpg" alt="Košarka" class="sport-img" id="sport-img">
+        <p>Košarka je jedan od najpopularnijih sportova. NBA liga privlači milione gledaoca širom svijeta.</p>
+    </section>
+
+    <section>
+        <h2>Tabela - NBA Zapad</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th><th>Tim</th><th>Utakmica</th><th>Pobjede</th><th>Porazi</th><th>%</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>Golden State</td><td>56</td><td>38</td><td>18</td><td>.679</td></tr>
+                <tr><td>2</td><td>LA Lakers</td><td>56</td><td>35</td><td>21</td><td>.625</td></tr>
+                <tr><td>3</td><td>Dallas</td><td>55</td><td>32</td><td>23</td><td>.582</td></tr>
+                <tr><td>4</td><td>Phoenix</td><td>56</td><td>30</td><td>26</td><td>.536</td></tr>
+                <tr><td>5</td><td>Houston</td><td>55</td><td>28</td><td>27</td><td>.509</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Video</h2>
+        <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/VbFcSHBGIDQ" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section>
+        <h2>Rezultati danas</h2>
+        <div id="rezultati"></div>
+    </section>
+
+    <section>
+        <h2>Korisni link</h2>
+        <a href="https://www.nba.com" target="_blank" class="ext-link">Posjeti NBA.com →</a>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2024 SportZona</p>
+</footer>
+
+<script src="kosarka.js"></script>
+</body>
 </html>

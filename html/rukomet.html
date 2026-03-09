@@ -1,12 +1,73 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <title>Rukomet</title>
-        <link rel="stylesheet" href="css/rukomet.css" rel="stylesheet" href="rukomet.js">
-    </head>
-    <body>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportZona - Rukomet</title>
+    <link rel="stylesheet" href="rukomet.css">
+</head>
+<body>
 
-    </body>
+<header>
+    <h1>🤾 SportZona</h1>
+</header>
+
+<nav>
+    <a href="fudbal.html">Fudbal</a>
+    <a href="kosarka.html">Košarka</a>
+    <a href="rukomet.html" class="active">Rukomet</a>
+    <a href="forma.html">Kontakt</a>
+</nav>
+
+<main>
+
+    <section>
+        <h2>Rukomet</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Handball_pictogram.svg/400px-Handball_pictogram.svg.png" alt="Rukomet" class="sport-img" id="sport-img">
+        <p>Rukomet je brz i uzbudljiv sport. EHF Champions League je najprestižnije klupsko takmičenje u Evropi.</p>
+    </section>
+
+    <section>
+        <h2>Tabela - EHF Champions League</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th><th>Tim</th><th>Odigrano</th><th>Pobjede</th><th>Porazi</th><th>Bodovi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>THW Kiel</td><td>12</td><td>9</td><td>2</td><td>19</td></tr>
+                <tr><td>2</td><td>PSG HB</td><td>12</td><td>8</td><td>2</td><td>18</td></tr>
+                <tr><td>3</td><td>Pick Szeged</td><td>12</td><td>7</td><td>4</td><td>15</td></tr>
+                <tr><td>4</td><td>RK Celje</td><td>12</td><td>6</td><td>4</td><td>14</td></tr>
+                <tr><td>5</td><td>RK Zagreb</td><td>12</td><td>5</td><td>5</td><td>12</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Video</h2>
+        <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/WwGlZV1lNKU" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section>
+        <h2>Rezultati danas</h2>
+        <div id="rezultati"></div>
+    </section>
+
+    <section>
+        <h2>Korisni link</h2>
+        <a href="https://www.ehf-handball.com" target="_blank" class="ext-link">Posjeti EHF.com →</a>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2024 SportZona</p>
+</footer>
+
+<script src="rukomet.js"></script>
+</body>
 </html>
